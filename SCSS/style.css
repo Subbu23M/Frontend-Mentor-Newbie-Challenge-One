@@ -1,0 +1,127 @@
+@charset "UTF-8";
+body {
+  font-family: 'Poppins',sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fafafa;
+  overflow-x: hidden;
+}
+
+.content {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 992px) {
+  .sup {
+    margin-top: 9rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .calculator {
+    margin-top: 9rem;
+  }
+}
+
+.super {
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+  .sup::before {
+    content: '';
+    /* position: absolute takes elements “out of flow” so its grid space gets collapsed. */
+    position: absolute;
+    width: 343px;
+    height: .3rem;
+    margin: 0 auto;
+    background-color: #45d3d3;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .sup::before {
+    content: '';
+    /* position: absolute takes elements “out of flow” so its grid space gets collapsed. */
+    position: absolute;
+    width: 349px;
+    height: .3rem;
+    margin: 0 auto;
+    background-color: #45d3d3;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .team::before {
+    content: '';
+    /* position: absolute takes elements “out of flow” so its grid space gets collapsed. */
+    position: absolute;
+    width: 343px;
+    height: .3rem;
+    margin: 0 auto;
+    background-color: #ea5353;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .team::before {
+    content: '';
+    /* position: absolute takes elements “out of flow” so its grid space gets collapsed. */
+    position: absolute;
+    width: 349px;
+    height: .3rem;
+    margin: 0 auto;
+    background-color: #ea5353;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .karma::before {
+    content: '';
+    /* position: absolute takes elements “out of flow” so its grid space gets collapsed. */
+    position: absolute;
+    width: 343px;
+    height: .3rem;
+    margin: 0 auto;
+    background-color: #fcaf4a;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .karma::before {
+    content: '';
+    /* position: absolute takes elements “out of flow” so its grid space gets collapsed. */
+    position: absolute;
+    width: 349px;
+    height: .3rem;
+    margin: 0 auto;
+    background-color: #fcaf4a;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .calculator::before {
+    content: '';
+    /* position: absolute takes elements “out of flow” so its grid space gets collapsed. */
+    position: absolute;
+    width: 343px;
+    height: .3rem;
+    margin: 0 auto;
+    background-color: #549ef2;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .calculator::before {
+    content: '';
+    /* position: absolute takes elements “out of flow” so its grid space gets collapsed. */
+    position: absolute;
+    width: 349px;
+    height: .3rem;
+    margin: 0 auto;
+    background-color: #549ef2;
+  }
+}
+/*# sourceMappingURL=style.css.map */

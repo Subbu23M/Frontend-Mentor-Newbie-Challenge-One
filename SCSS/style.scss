@@ -1,0 +1,226 @@
+// Colors
+
+// hsl stands for hue, saturation and lightness
+
+$bodyBackgroundColor:hsl(0, 0%, 98%);
+
+$supervisorBackgroundColor:hsl(180, 62%, 55%);
+
+$teamBackgroundColor:hsl(0, 78%, 62%);
+
+$karmaBackgroundColor:hsl(34, 97%, 64%);
+
+$calculatorBackgroundColor:hsl(212, 86%, 64%);
+
+// Universal Affects
+body {
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $bodyBackgroundColor;
+    overflow-x: hidden;
+}
+
+// For Content
+.content{
+    margin-bottom: 1rem;
+}
+
+// On Large Screens
+@media only screen and (min-width:992px){
+
+    .sup{
+        margin-top: 9rem;
+    }
+
+}
+
+// On Large Screens
+@media only screen and (min-width:992px){
+
+    .calculator{
+        margin-top: 9rem;
+    }
+
+}
+
+.super{
+    font-weight: 400;
+}
+
+// Media Queries-1
+// On XS Screens
+@media only screen and (max-width:600px){
+
+    .sup::before{
+        content: '';
+    
+        /* position: absolute takes elements “out of flow” so its grid space gets collapsed. */
+        // so use top bottom left and right
+        position: absolute;
+    
+        width: 343px;
+        height: .3rem;
+
+        // margin: left & right
+        margin: 0 auto;
+
+        background-color:$supervisorBackgroundColor;
+    }
+
+}
+
+// Media Queries-1
+// On Large Screens
+@media only screen and (min-width:992px){
+
+    .sup::before{
+        content: '';
+    
+        /* position: absolute takes elements “out of flow” so its grid space gets collapsed. */
+        // so use top bottom left and right
+        position: absolute;
+    
+        width: 349px;
+        height: .3rem;
+
+        // margin: left & right
+        margin: 0 auto;
+
+        background-color:$supervisorBackgroundColor;
+    }
+
+}
+
+// Media Queries-2
+// On XS Screens
+@media only screen and (max-width:600px){
+
+    .team::before{
+        content: '';
+    
+        /* position: absolute takes elements “out of flow” so its grid space gets collapsed. */
+        // so use top bottom left and right
+        position: absolute;
+    
+        width: 343px;
+        height: .3rem;
+
+        // margin: left & right
+        margin: 0 auto;
+
+        background-color:$teamBackgroundColor;
+    }
+
+}
+
+// Media Queries-2
+// On Large Screens
+@media only screen and (min-width:992px){
+
+    .team::before{
+        content: '';
+    
+        /* position: absolute takes elements “out of flow” so its grid space gets collapsed. */
+        // so use top bottom left and right
+        position: absolute;
+    
+        width: 349px;
+        height: .3rem;
+
+        // margin: left & right
+        margin: 0 auto;
+
+        background-color:$teamBackgroundColor;
+    }
+
+}
+
+// Media Queries-3
+// On XS Screens
+@media only screen and (max-width:600px){
+
+    .karma::before{
+        content: '';
+    
+        /* position: absolute takes elements “out of flow” so its grid space gets collapsed. */
+        // so use top bottom left and right
+        position: absolute;
+    
+        width: 343px;
+        height: .3rem;
+
+        // margin: left & right
+        margin: 0 auto;
+
+        background-color:$karmaBackgroundColor;
+    }
+
+}
+
+// Media Queries-3
+// On Large Screens
+@media only screen and (min-width:992px){
+
+    .karma::before{
+        content: '';
+    
+        /* position: absolute takes elements “out of flow” so its grid space gets collapsed. */
+        // so use top bottom left and right
+        position: absolute;
+    
+        width: 349px;
+        height: .3rem;
+
+        // margin: left & right
+        margin: 0 auto;
+
+        background-color:$karmaBackgroundColor;
+    }
+
+}
+
+// Media Queries-4
+// On XS Screens
+@media only screen and (max-width:600px){
+
+    .calculator::before{
+        content: '';
+    
+        /* position: absolute takes elements “out of flow” so its grid space gets collapsed. */
+        // so use top bottom left and right
+        position: absolute;
+    
+        width: 343px;
+        height: .3rem;
+
+        // margin: left & right
+        margin: 0 auto;
+
+        background-color:$calculatorBackgroundColor;
+    }
+
+}
+
+// Media Queries-4
+// On Large Screens
+@media only screen and (min-width:992px){
+
+    .calculator::before{
+        content: '';
+    
+        /* position: absolute takes elements “out of flow” so its grid space gets collapsed. */
+        // so use top bottom left and right
+        position: absolute;
+    
+        width: 349px;
+        height: .3rem;
+
+        // margin: left & right
+        margin: 0 auto;
+
+        background-color:$calculatorBackgroundColor;
+    }
+
+}
